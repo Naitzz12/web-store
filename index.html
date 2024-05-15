@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NightCarel Shop</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/1f9aefb47f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="top-header">
+        <div class="logo">
+          <h1>SHOP</h1>
+          <h3>NightCarel</h3>
+        </div>
+        <nav>
+          <div class="nightMode">
+            <div class="nm">
+              <p class="round"><i class="fa-solid fa-moon"></i></p>
+            </div>
+            <p class="night-txt">Night Mode</p>
+          </div>
+          <ul>
+            <li><a href="" class="home">HOME</a></li>
+            <li><a href="">PRODUCT</a></li>
+            <li><a href="">SPARE PARTS</a></li>
+            <li><a href="">CAR TYPE</a></li>
+            <li><a href="">MODELING PART</a></li>
+            <li><a href="">CUSTOMER SERVICE</a></li>
+            <li><a href="">MECHANIC</a></li>
+          </ul>
+          <div class="order">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <button class="btn-12"><span>order</span></button>
+          </div>
+        </nav>
+      </div>
+
+      <header class="header">
+        <div class="h-text">
+          <h1><span>Welcome</span> To Night Carel</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat,
+            delectus porro officia voluptatibus maiores, magnam consectetur
+            adipisci necessitatibus recusandae iure consequuntur rem a optio vel
+            rerum id, quia ut magni aliquid illo officiis ullam deserunt.
+            Repellendus ut eligendi atque nulla necessitatibus possimus aperiam
+            earum, veritatis quisquam a illo itaque minima.
+          </p>
+          <div class="order-div">
+            <a
+              href=""
+              class="order-button"
+              onmouseover="inMouse()"
+              onmouseout="outMouse()"
+              >Order Now</a
+            >
+            <p class="a-right"><i class="fa-solid fa-arrow-right"></i></p>
+          </div>
+        </div>
+        <img src="./assets/image1.png" alt="" />
+      </header>
+
+      <div class="collab">
+        <!-- <h2><span>Product</span> Collabs</h2> -->
+        <div class="collab-list">
+          <img src="./assets/image_collabs/pngwing.com.png" alt="" />
+          <img src="./assets/image_collabs/pngwing.com (1).png" alt="" />
+          <img src="./assets/image_collabs/pngwing.com (2).png" alt="" />
+          <img src="./assets/image_collabs/pngwing.com (3).png" alt="" />
+          <img src="./assets/image_collabs/pngwing.com (4).png" alt="" />
+          <img src="./assets/image_collabs/pngwing.com (5).png" alt="" />
+          <img src="./assets/image_collabs/pngwing.com (6).png" alt="" />
+          <img src="./assets/image_collabs/pngwing.com (7).png" alt="" />
+          <img src="./assets/image_collabs/pngwing.com (8).png" alt="" />
+          <img src="./assets/image_collabs/pngwing.com (9).png" alt="" />
+          <img src="./assets/image_collabs/pngwing.com (10).png" alt="" />
+        </div>
+      </div>
+
+      <div class="list-produck">
+        <div class="lp-menu">
+          <h1>Filter <span>Product</span></h1>
+          <li><a href="">Sering Dibeli</a></li>
+          <li><a href="">Stock Terbanyak</a></li>
+          <li><a href="">Produck Disukai</a></li>
+          <li><a href="">Harga Murah</a></li>
+          <li><a href=""></a></li>
+        </div>
+        <div class="p__">
+          <div
+            class="splide"
+            role="group"
+            aria-label="Splide Basic HTML Example"
+          >
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <img src="./assets/produck/imageP1.png" alt="" />
+                  <div class="pl-text">
+                    <h3>Turbo Kit</h3>
+                    <p>1.000.000,00</p>
+                    <button>Pesan</button>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img src="./assets/produck/imageP1.png" alt="" />
+                  <div class="pl-text">
+                    <h3>Turbo Kit</h3>
+                    <p>1.000.000,00</p>
+                    <button>Pesan</button>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img src="./assets/produck/imageP1.png" alt="" />
+                  <div class="pl-text">
+                    <h3>Turbo Kit</h3>
+                    <p>1.000.000,00</p>
+                    <button>Pesan</button>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img src="./assets/produck/imageP1.png" alt="" />
+                  <div class="pl-text">
+                    <h3>Turbo Kit</h3>
+                    <p>1.000.000,00</p>
+                    <button>Pesan</button>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img src="./assets/produck/imageP1.png" alt="" />
+                  <div class="pl-text">
+                    <h3>Turbo Kit</h3>
+                    <p>1.000.000,00</p>
+                    <button>Pesan</button>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img src="./assets/produck/imageP1.png" alt="" />
+                  <div class="pl-text">
+                    <h3>Turbo Kit</h3>
+                    <p>1.000.000,00</p>
+                    <button>Pesan</button>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img src="./assets/produck/imageP1.png" alt="" />
+                  <div class="pl-text">
+                    <h3>Turbo Kit</h3>
+                    <p>1.000.000,00</p>
+                    <button>Pesan</button>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img src="./assets/produck/imageP1.png" alt="" />
+                  <div class="pl-text">
+                    <h3>Turbo Kit</h3>
+                    <p>1.000.000,00</p>
+                    <button>Pesan</button>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img src="./assets/produck/imageP1.png" alt="" />
+                  <div class="pl-text">
+                    <h3>Turbo Kit</h3>
+                    <p>1.000.000,00</p>
+                    <button>Pesan</button>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img src="./assets/produck/imageP1.png" alt="" />
+                  <div class="pl-text">
+                    <h3>Turbo Kit</h3>
+                    <p>1.000.000,00</p>
+                    <button>Pesan</button>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img src="./assets/produck/imageP1.png" alt="" />
+                  <div class="pl-text">
+                    <h3>Turbo Kit</h3>
+                    <p>1.000.000,00</p>
+                    <button>Pesan</button>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img src="./assets/produck/imageP1.png" alt="" />
+                  <div class="pl-text">
+                    <h3>Turbo Kit</h3>
+                    <p>1.000.000,00</p>
+                    <button>Pesan</button>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="splide2"
+            role="group"
+            aria-label="Splide Basic HTML Example"
+          >
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <img src="./assets/produck/imageP1.png" alt="" />
+                  <div class="pl-text">
+                    <h3>Turbo Kit</h3>
+                    <p>1.000.000,00</p>
+                    <button>Pesan</button>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img src="./assets/produck/imageP1.png" alt="" />
+                  <div class="pl-text">
+                    <h3>Turbo Kit</h3>
+                    <p>1.000.000,00</p>
+                    <button>Pesan</button>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img src="./assets/produck/imageP1.png" alt="" />
+                  <div class="pl-text">
+                    <h3>Turbo Kit</h3>
+                    <p>1.000.000,00</p>
+                    <button>Pesan</button>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img src="./assets/produck/imageP1.png" alt="" />
+                  <div class="pl-text">
+                    <h3>Turbo Kit</h3>
+                    <p>1.000.000,00</p>
+                    <button>Pesan</button>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img src="./assets/produck/imageP1.png" alt="" />
+                  <div class="pl-text">
+                    <h3>Turbo Kit</h3>
+                    <p>1.000.000,00</p>
+                    <button>Pesan</button>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img src="./assets/produck/imageP1.png" alt="" />
+                  <div class="pl-text">
+                    <h3>Turbo Kit</h3>
+                    <p>1.000.000,00</p>
+                    <button>Pesan</button>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img src="./assets/produck/imageP1.png" alt="" />
+                  <div class="pl-text">
+                    <h3>Turbo Kit</h3>
+                    <p>1.000.000,00</p>
+                    <button>Pesan</button>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img src="./assets/produck/imageP1.png" alt="" />
+                  <div class="pl-text">
+                    <h3>Turbo Kit</h3>
+                    <p>1.000.000,00</p>
+                    <button>Pesan</button>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img src="./assets/produck/imageP1.png" alt="" />
+                  <div class="pl-text">
+                    <h3>Turbo Kit</h3>
+                    <p>1.000.000,00</p>
+                    <button>Pesan</button>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img src="./assets/produck/imageP1.png" alt="" />
+                  <div class="pl-text">
+                    <h3>Turbo Kit</h3>
+                    <p>1.000.000,00</p>
+                    <button>Pesan</button>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img src="./assets/produck/imageP1.png" alt="" />
+                  <div class="pl-text">
+                    <h3>Turbo Kit</h3>
+                    <p>1.000.000,00</p>
+                    <button>Pesan</button>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img src="./assets/produck/imageP1.png" alt="" />
+                  <div class="pl-text">
+                    <h3>Turbo Kit</h3>
+                    <p>1.000.000,00</p>
+                    <button>Pesan</button>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
